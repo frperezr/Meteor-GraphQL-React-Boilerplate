@@ -1,0 +1,55 @@
+{
+  "extends": [
+    "airbnb",
+    "plugin:ava/recommended"
+  ],
+  "parser": "babel-eslint",
+  "plugins": [
+    "ava"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "ecmaFeatures": {
+    "jsx": true,
+    "es6": true,
+    "classes": true
+  },
+  "rules": {
+     "comma-dangle": [1, "always-multiline"],
+     "no-underscore-dangle": 0,
+     "max-len": [1, 180, 4],
+     "arrow-body-style": [0],
+     "react/jsx-no-bind": [0],
+     "import/no-unresolved": [0], // Until import plugin supports webpack 2 resolveModules
+     "react/prefer-stateless-function": "off",
+     "no-console": "off",
+     "import/no-extraneous-dependencies": "off",
+     "import/extensions": "off",
+     "react/jsx-filename-extension": "off",
+     "function-paren-newline": "off",
+     "jsx-a11y/label-has-for": "off",
+     "jsx-a11y/anchor-is-valid": "off",
+     "jsx-a11y/click-events-have-key-events": "off",
+     "jsx-a11y/no-noninteractive-element-interactions": "off",
+     "jsx-a11y/no-static-element-interactions": "off",
+     "react/no-children-prop": "off",
+     "import/prefer-default-export": "off",
+     "no-useless-escape": "off",
+     "no-undef": off,
+     "react/no-string-refs": "off",
+     "react/forbid-prop-types": "off",
+     "no-nested-ternary": "off",
+     "object-curly-newline": "off",
+     "no-return-assign": "off",
+     "no-param-reassign": "off",
+     "no-lonely-if": "off",
+     "react/no-array-index-key": "off",
+     "no-restricted-globals": "off",
+     "react/destructuring-assignment": "off",
+     "lines-between-class-members": "off",
+     "jsx-a11y/label-has-associated-control": "off"
+  }
+}
